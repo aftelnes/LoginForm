@@ -1,6 +1,6 @@
 .login {
   background: transparent;
-  height: 550px;
+  height: 460px;
   width: 520px;
   position: fixed;
   top: 40%;
@@ -9,7 +9,7 @@
   border-radius: 10px;
   padding-top: 20px;
   border: 1px solid rgb(61, 161, 243);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(40px);
 }
 
 .header {
@@ -18,4 +18,26 @@
   margin-bottom: 50px;
   font-size: 40px;
   color: rgb(61, 161, 243);
+}
+
+.remembermeandforgotpas {
+  width: 420px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.donthaveanaccount {
+  width: 270px;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.register {
+  margin-left: 10px;
+}
+
+.register:hover {
+  text-decoration-line: underline;
+  cursor: pointer;
 }

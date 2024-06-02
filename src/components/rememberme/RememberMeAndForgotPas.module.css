@@ -1,0 +1,20 @@
+.rememberandforgot {
+  width: 410px;
+  height: 40px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.rememberme {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  vertical-align: middle;
+}
+
+.forgotpassword {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.forgotpassword:hover {
+  cursor: pointer;
+  text-decoration-line: underline;
+}

@@ -12,6 +12,7 @@ const ConfirmButton: FC = () => {
         style={{
           color: "black",
           backgroundColor: "rgb(61, 161, 243)",
+          marginBottom: "30px",
         }}
       >
         Login
